@@ -341,12 +341,6 @@ nav .nav__item a {
   .navbar-bg {
     background-color: transparent;
   }
-
-
-
-
-
-
 }
 
 .slider__text-content {
@@ -386,6 +380,23 @@ nav .nav__item a {
 @media (min-width: 321px) and (max-width: 768px) {
   .slider__text-content .heading-one {
     max-width: 25rem;
+    font-size: 1.7rem;
+    margin-top: 0vh;
+  }
+
+  /* 
+  .slider__text-content p {
+    line-height: 1.28rem;
+    font-size: 0.91rem;
+    margin-top: 40px;
+    margin-bottom: 30px !important;
+    font-weight: 400 !important;
+    color: #a1a1a1;
+  } */
+
+  .slider__text-content {
+    padding: 0% 13% 0% 13%;
+    top: 0px;
   }
 }
 
@@ -409,7 +420,25 @@ nav .nav__item a {
     line-height: 1.5rem;
     max-width: 22rem;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+    font-weight: 500;
+  }
+
+  .about .about__container h2 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 25px;
+  }
+
+  .about .about__container p {
+    line-height: 1.5rem;
+    max-width: 22rem;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: 500 !important;
   }
 }
 
@@ -449,6 +478,8 @@ nav .nav__item a {
   .about {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    position: relative;
+    top: -40px;
   }
 }
 
@@ -481,7 +512,26 @@ nav .nav__item a {
 
 @media (min-width: 321px) and (max-width: 768px) {
   .about .about__container {
-    padding: 0;
+    padding: 18% 13% 4% 13%;
+    margin: 0;
+  }
+
+  .about .about__container h2 {
+    font-size: 0.7rem !important;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position: absolute;
+  }
+
+  .about .about__container p {
+    line-height: 1.5rem !important;
+    font-size: 0.8rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #a1a1a1;
   }
 }
 
@@ -509,11 +559,6 @@ nav .nav__item a {
 }
 
 @media (min-width: 321px) and (max-width: 768px) {
-  .about .about__container p {
-    max-width: 22rem;
-    line-height: 1.5rem;
-    padding-top: 20px;
-  }
 }
 
 .about .about__col-three {
@@ -526,7 +571,9 @@ nav .nav__item a {
 
 @media (min-width: 321px) and (max-width: 768px) {
   .about .about__col-three {
-    min-height: 366px;
+    min-height: 426px;
+    top: 40px;
+    position: relative;
   }
 }
 
