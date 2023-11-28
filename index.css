@@ -172,7 +172,7 @@ nav .nav__item a {
 .slider {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [12];
+  -ms-grid-columns: (1fr);
   grid-template-columns: repeat(12, 1fr);
   overflow-x: hidden;
 }
@@ -593,3 +593,4 @@ nav .nav__item a {
 }
 
 /*# sourceMappingURL=index.css.map */
+
