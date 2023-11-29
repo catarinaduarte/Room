@@ -380,7 +380,7 @@ nav .nav__item a {
 @media (min-width: 321px) and (max-width: 768px) {
   .slider__text-content .heading-one {
     max-width: 25rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: 0vh;
   }
 
